@@ -1,7 +1,5 @@
 # Bayan: Towards an Effective Arabic Fatwa Search Engine
 
-***The large models have not yet been uploaded to the repository.***
-
 ## Introduction
 
 Bayan is an Arabic search engine built for the Islamic jurisprudence domain upon the Google search engine.
