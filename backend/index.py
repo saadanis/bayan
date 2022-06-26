@@ -40,13 +40,13 @@ ACCESS_TOKEN = "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"
 # MODEL = ""
 # PREPROCESSOR = ""
 
-# TOKENIZER = AutoTokenizer.from_pretrained("saadanis/bayan_arabert_2", use_auth_token=ACCESS_TOKEN)
-# MODEL = AutoModelForSequenceClassification.from_pretrained("saadanis/bayan_arabert_2", use_auth_token=ACCESS_TOKEN)
-# PREPROCESSOR = ArabertPreprocessor("aubmindlab/bert-base-arabertv2")
-
-TOKENIZER = AutoTokenizer.from_pretrained("./bert_rerank/bayan_arabert_2")
-MODEL = AutoModelForSequenceClassification.from_pretrained("./bert_rerank/bayan_arabert_2")
+TOKENIZER = AutoTokenizer.from_pretrained("saadanis/bayan_arabert_2", use_auth_token=ACCESS_TOKEN)
+MODEL = AutoModelForSequenceClassification.from_pretrained("saadanis/bayan_arabert_2", use_auth_token=ACCESS_TOKEN)
 PREPROCESSOR = ArabertPreprocessor("aubmindlab/bert-base-arabertv2")
+
+# TOKENIZER = AutoTokenizer.from_pretrained("./bert_rerank/bayan_arabert_2")
+# MODEL = AutoModelForSequenceClassification.from_pretrained("./bert_rerank/bayan_arabert_2")
+# PREPROCESSOR = ArabertPreprocessor("aubmindlab/bert-base-arabertv2")
 
 # os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
